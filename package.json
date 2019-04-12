@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap4",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 Blank Template",
+  "main": "assets/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap4",
+    "blank",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/wdmg/bootstrap4.git"
+  },
+  "author": "Alexsander Vyshnyvetskyy <alex.vyshnyvetskyy@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0",
+    "bootstrap": "^4.3.1"
+  }
+}
