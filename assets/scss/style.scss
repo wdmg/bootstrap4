@@ -1081,3 +1081,54 @@ $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 @import "bootstrap/spinners";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
+
+/* Responsive */
+
+// Extra small devices (portrait phones, less than 576px)
+@include media-breakpoint-up(sm) { // @media (min-width: 576px)
+
+}
+
+@include media-breakpoint-down(sm) { // @media (max-width: 767.98px)
+
+}
+
+// Small devices (landscape phones, 576px and up)
+@include media-breakpoint-between(sm, md) { // @media (min-width: 576px) and (max-width: 991.98px)
+
+}
+
+
+// Medium devices (tablets, 768px and up)
+@include media-breakpoint-up(md) { // @media (min-width: 768px)
+
+}
+
+@include media-breakpoint-down(md) { // @media (max-width: 991.98px)
+
+}
+
+@include media-breakpoint-between(md, lg) { // @media (min-width: 768px) and (max-width: 1199.98px)
+
+}
+
+
+// Large devices (desktops, 992px and up)
+@include media-breakpoint-up(lg) { // @media (min-width: 992px)
+
+}
+
+@include media-breakpoint-down(lg) { // @media (max-width: 1199.98px)
+
+}
+
+@include media-breakpoint-between(lg, xl) { // @media (min-width: 992px)
+
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@include media-breakpoint-up(xl) { // @media (min-width: 1200px)
+
+}
